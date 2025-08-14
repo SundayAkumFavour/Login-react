@@ -1,0 +1,23 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:burlywood;
+  color:gold;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.logo img{
+  border-radius: 20px;
+  width: 3rem;
+}
+.nav-links li {
+  margin-right: 1rem;
+  cursor: pointer;
+}

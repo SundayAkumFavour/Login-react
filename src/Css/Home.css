@@ -1,0 +1,62 @@
+.home-hero {
+    text-justify: right;
+    padding: 10rem;
+    background-image: url("../Components/img1.jpeg");
+    background-position: center;
+  }
+  .home-hero:hover {
+    text-justify: right;
+    padding: 10rem;
+    background: linear-gradient(to top,rgba(4, 9, 30, 0.327),rgba(4, 9, 30, 0.327)), url("../Components/img1.jpeg");
+    background-position: center;
+  }
+  .home-hero-content {
+  text-align: right;
+  }
+  
+  .home-hero h1 {
+    color: white;
+
+  }
+  
+  .home-hero button {
+    display: inline-block;
+    text-decoration: none;
+    color:burlywood;
+    padding: 6px 17px;
+    margin-right:10px ;
+    font-size: 20px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .home-hero button:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 6px 17px;
+    margin-right:10px ;
+    font-size: 20px;
+    background:burlywood;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .about {
+    display: flex;
+    justify-content: left;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+  }
+  
+img{
+    float: left;
+  }
+
+.about-text{
+    margin-left: 30px;
+}
+

@@ -1,0 +1,30 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.carousel-img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.carousel-btn {
+  background: burlywood;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+  background: #a67c52;
+}
